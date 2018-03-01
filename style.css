@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    color: #333;
+}
+
+.note {
+    background:#eee; border-left:solid 3px cornflowerblue;
+    padding: 1em;
+    border-radius: 2px;
+    margin-top: 0.5em;
+}
+
+.note pre {
+    display: inline
+}
+
+.failed {
+    background: rgba(150, 0, 50, 0.1);
+    padding: 1em;
+    border-left: solid 3px firebrick;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+table {
+    margin: 1em;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #111
+}
+
+td {
+    padding: 0.1em 2em
+}
+
+a {
+    color: #222;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 0, 0.1)
+}
+
+a:visited {
+    color: rgb(80, 0, 80)
+}
+
+table a {
+    display: block;
+}
+
+h1 {text-align:center; background-color:#447; color: #fff; padding:0.5em}
